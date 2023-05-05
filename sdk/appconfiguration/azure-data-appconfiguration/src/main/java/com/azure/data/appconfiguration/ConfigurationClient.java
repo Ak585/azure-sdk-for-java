@@ -907,6 +907,4 @@ public final class ConfigurationClient {
      * @throws NullPointerException if the given token is null.
      */
     public void updateSyncToken(String token) {
-        syncTokenPolicy.updateSyncToken(token);
-    }
-}
+        syncTokenPolicy.update
